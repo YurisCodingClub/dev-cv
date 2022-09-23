@@ -1,7 +1,28 @@
 {
   "name": "dev-cv",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://dev-cv.yuriscodingclub.org",
+  "description": "DevCV is CV creator for web developers. It is an open-source alternative to paid CV creators implemented in ReactJS.",
+  "main": "react.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YurisCodingClub/dev-cv"
+  },
+  "keywords": [
+    "javascript",
+    "CV",
+    "socials",
+    "yuriscodingclub",
+    "reactjs",
+    "react",
+    "open source"
+  ],
+  "author": "YurisCodingClub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YurisCodingClub/dev-cv/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
