@@ -127,4 +127,4 @@ Celebrate your contribution and share it with your friends and followers on your
 
 Now let's get you started with your next contribution, wether on this or any other great open source projects on GitHub.
 
-Have fun!
+Have fun 👻!
