@@ -8,7 +8,7 @@ I got many great responses on my article about <a href="https://dev.to/yuridevat
 
 I've been asked many times which tool is the best to create a CV like mine - easily and for free. So I thought, why not develop our own tool? Together, open source, as part of Hacktoberfest 2022?
 
-## How to contribute
+# How to contribute
 
 This project aims to be a beginner friendly way to your first contribution to open source. If you are looking to make your first contribution, follow the steps below.
 
