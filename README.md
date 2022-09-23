@@ -91,7 +91,7 @@ artcile about [How to write a good commit message](https://dev.to/chrissiemhrk/g
 
 For this project we are going to use following style:
 
-**type-of-issue - number-of-issue - action you took**
+**type-of-issue- + number-of-issue[action you took]**
 
 Practical example:
 
