@@ -41,17 +41,17 @@ where "url you just copied" (without the quotation marks) is the url to this rep
 For example:
 
 ```
-git clone https://github.com/this-is-you/procheck.git
+git clone https://github.com/this-is-you/dev-cv.git
 ```
 
-where `this-is-you` is your GitHub username. Here you're copying the contents of the procheck repository on GitHub to your computer.
+where `this-is-you` is your GitHub username. Here you're copying the contents of the dev-cv repository on GitHub to your computer.
 
 ## Create a branch
 
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd procheck
+cd dev-cv
 ```
 
 Now create a branch using the `git checkout -b` command:
