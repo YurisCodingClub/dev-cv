@@ -12,7 +12,7 @@ I've been asked many times which tool is the best to create a CV like mine - eas
 
 This project aims to be a beginner friendly way to your first contribution to open source. If you are looking to make your first contribution, follow the steps below.
 
-<img align="right" width="300" src="" alt="fork this repository" />
+<img align="right" width="300" src="https://docs.google.com/uc?export=download&id=1SbliQ66gfCx0uiwcG_04FAPXNMPHVE7s" alt="fork this repository" />
 
 #### If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
 
@@ -23,7 +23,7 @@ This will create a copy of this repository in your account.
 
 ## Clone the repository
 
-<img align="right" width="300" src="" alt="clone this repository" />
+<img align="right" width="300" src="https://docs.google.com/uc?export=download&id=10xHPRthNMKP8vi_mS8KjklhlLIhVlp6g" alt="clone this repository" />
 
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
 
@@ -35,7 +35,7 @@ git clone "url you just copied"
 
 where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-<img align="right" width="300" src="" alt="copy URL to clipboard" />
+<img align="right" width="300" src="https://docs.google.com/uc?export=download&id=1ifdWqKw4DYvhUjmH_LNNAt925S7WPNC4" alt="copy URL to clipboard" />
 
 For example:
 
