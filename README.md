@@ -68,7 +68,7 @@ git checkout -b name-of-issue
 
 ## Make necessary changes and commit those changes
 
-<img align="right" width="450" src="" alt="git status" />
+<img align="right" width="450" src="https://docs.google.com/uc?export=download&id=16K70wMG4sZk2MzqwkAowkX06EpI4dMKZ" alt="git status" />
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
@@ -111,11 +111,11 @@ replacing `<add-your-branch-name>` with the name of the branch you created earli
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
-<img style="float: right;" src="" alt="create a pull request" />
+<img style="float: right;" src="https://docs.google.com/uc?export=download&id=1FMXVHEhxBxeSFWsJsR53ddE8GmyAlMR4" alt="create a pull request" />
 
 Now submit the pull request.
 
-<img style="float: right;" src="" alt="submit pull request" />
+<img style="float: right;" src="https://docs.google.com/uc?export=download&id=1r6VFuraC-5l9PF4JKn9A4Rhmm-4VelI7" alt="submit pull request" />
 
 Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
 
