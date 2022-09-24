@@ -1,23 +1,25 @@
 on:
   fork:
   push:
-    branches: [main]
+    branches: [ main ]
   issues:
-    types: [opened]
+    types: [ opened ]
   issue_comment:
-    types: [created]
+    types: [ created ]
   pull_request_target:
-    types: [opened]
+    types: [ opened ]
   pull_request_review_comment:
-    types: [created]
+    types: [ created ]
 
 jobs:
+
   welcome:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@main
       - uses: YurisCodingClub/dev-cv/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "<h1>It's great having you contribute to this project</h1> Welcome to the club :nerd_face:"
-          pr-message: "<h1>It's great having you contribute to this project</h1> Welcome to the club :nerd_face:"
+          issue-message: '<h1>It''s great having you contribute to this project</h1> Welcome to the club :nerd_face: :rocket:'
+          pr-message: '<h1>It''s great having you contribute to this project</h1> Welcome to the club :nerd_face:'
+      
