@@ -15,7 +15,10 @@ This project aims to be a beginner friendly way to your first contribution to op
 
 <img align="right" width="300" src="https://docs.google.com/uc?export=download&id=1SbliQ66gfCx0uiwcG_04FAPXNMPHVE7s" alt="fork this repository" />
 
-**If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).**
+### Prerequisites
+
+If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
+If you don't have node on your machine, [install it](https://nodejs.org/en/download/).
 
 ### Fork this repository
 
@@ -28,7 +31,7 @@ This will create a copy of this repository in your account.
 
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
 
-Open a terminal and run the following git command:
+Open a terminal, go to the directory where you want the project to be saved and run the following git command:
 
 ```
 git clone "url you just copied"
@@ -52,6 +55,24 @@ Change to the repository directory on your computer (if you are not already ther
 
 ```
 cd dev-cv
+```
+
+Open the project in Visual Studio Code (or your favorite code editor):
+
+```
+code .
+```
+
+Install the dependencies:
+
+```
+npm install
+```
+
+Run the project:
+
+```
+npm start
 ```
 
 Now create a branch using the `git checkout -b` command:
