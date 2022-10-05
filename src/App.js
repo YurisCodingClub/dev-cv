@@ -5,6 +5,7 @@ import PersonalInformation from './components/PersonalInformation';
 function App() {
   return (
     < >
+    
       <PersonalInformation/>
      
     </>
