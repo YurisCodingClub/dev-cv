@@ -100,8 +100,8 @@ function PersonalInformation() {
           </li>
         </ul>
 
-        <button>Save</button>
-        <button>Cancel</button>
+        <button> Save </button>
+        <button> Cancel </button>
       </form>
     </div>
   );
