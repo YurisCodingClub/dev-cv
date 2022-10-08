@@ -15,7 +15,7 @@ function Skills() {
               id="form-technical"
               placeholder="Enter Your Technical Skills"
               aria-label="Provide Your Technical Skills"
-              required
+              
             />
           </li>
           <li>
