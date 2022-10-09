@@ -1,6 +1,6 @@
 import React from "react";
 
-const DisplayCV = () => {
+const CV = () => {
   return (
     <div
       style={{
@@ -16,4 +16,4 @@ const DisplayCV = () => {
   );
 };
 
-export default DisplayCV;
+export default CV;
