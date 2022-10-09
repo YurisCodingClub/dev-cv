@@ -6,6 +6,7 @@ nav {
   align-items: center;
   width: 100%;
   background-color: slategrey;
+  margin-bottom: 30px;
 }
 .logo {
   flex: 1;
