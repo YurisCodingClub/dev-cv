@@ -4,6 +4,7 @@ import DownloadButton from "./components/DownloadButton";
 import ProgrammingExpertise from "./components/ProgrammingExpertise";
 import Education from "./components/Education";
 import PersonalInformation from "./components/PersonalInformation";
+import CV from './components/CV';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ProgrammingExpertise />
       <Education />
       <PersonalInformation />
+      <CV />
     </>
   );
 }
