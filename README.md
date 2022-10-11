@@ -11,6 +11,8 @@ I've been asked many times which tool is the best to create a CV like mine - eas
 
 Read more about the project in the <a href="https://github.com/YurisCodingClub/dev-cv/wiki">project's wiki</a>.
 
+**Note:** Merge reviews are done every Saturday. 😇
+
 ## Design of the app
 Please go to the <a href="https://github.com/YurisCodingClub/dev-cv/discussions/17">discussions section of the project</a> where I opened a discussion about the app's design and work together on a great design for the app.
 
