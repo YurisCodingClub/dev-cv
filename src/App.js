@@ -4,15 +4,12 @@ import DownloadButton from "./components/DownloadButton";
 import ProgrammingExpertise from "./components/ProgrammingExpertise";
 import Education from "./components/Education";
 import PersonalInformation from "./components/PersonalInformation";
+import Skills from "./components/Skills";
 
 function App() {
   return (
     <>
-      <Header />
-      <DownloadButton />
-      <ProgrammingExpertise />
-      <Education />
-      <PersonalInformation />
+      <Skills/>
     </>
   );
 }
