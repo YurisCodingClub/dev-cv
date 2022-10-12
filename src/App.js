@@ -15,8 +15,9 @@ function App() {
       <ProgrammingExpertise />
       <Education />
       <PersonalInformation />
-      <CV />
       <Skills/>
+      <CV />
+      
     </>
   );
 }
