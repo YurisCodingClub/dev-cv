@@ -5,6 +5,7 @@ import ProgrammingExpertise from "./components/ProgrammingExpertise";
 import Education from "./components/Education";
 import PersonalInformation from "./components/PersonalInformation";
 import CV from './components/CV';
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <ProgrammingExpertise />
       <Education />
       <PersonalInformation />
+      <Skills/>
       <CV />
+      
     </>
   );
 }
