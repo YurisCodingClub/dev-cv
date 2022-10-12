@@ -6,7 +6,6 @@ import Education from "./components/Education";
 import PersonalInformation from "./components/PersonalInformation";
 import CV from './components/CV';
 import Skills from "./components/Skills";
-import Skills from "./components/Skills";
 
 function App() {
   return (
