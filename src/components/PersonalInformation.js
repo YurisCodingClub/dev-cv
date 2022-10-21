@@ -33,7 +33,7 @@ function PersonalInformation() {
             <input
               type="email"
               name="email"
-              id="form-tel"
+              id="form-email"
               placeholder="me@email.com"
               aria-label="Provide Your Email "
             />
