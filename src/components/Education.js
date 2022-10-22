@@ -19,30 +19,30 @@ const Education = () => {
           <input type='text' name='gpa' id='gpa' required />
         </div>
         <div>
-          <label for='city'>City</label>
-          <input type='text' name='city' id='city' required />
+          <label for='edu-city'>City</label>
+          <input type='text' name='edu-city' id='edu-city' required />
         </div>
         <div>
-          <label for='country'>Country</label>
+          <label for='edu-country'>Country</label>
           <input
-            type='text'
-            name='country'
-            id='country'
-            autoComplete='country-name'
+  type = 'text'
+  name = 'edu-country'
+  id = 'edu-country'
+  autoComplete = 'country-name'
             required
           />
         </div>
         <div>
-          <label for='start-date'>Start Date</label>
-          <input type='date' name='startDate' id='startDate' required />
+          <label for='edu-start-date'>Start Date</label>
+          <input type='date' name='edu-start-date' id='edu-start-date' required />
         </div>
         <div>
-          <label for='end-date'>End Date</label>
-          <input type='date' name='endDate' id='endDate' required />
+          <label for='edu-end-date'>End Date</label>
+          <input type='date' name='edu-end-date' id='edu-end-date' required />
         </div>
         <div>
-          <label for='description'>Description</label>
-          <textarea name='description' id='description' required></textarea>
+          <label for='edu-description'>Description</label>
+          <textarea name='edu-description' id='edu-description' required></textarea>
         </div>
         <button>Save</button>
         <button>Cancel</button>
