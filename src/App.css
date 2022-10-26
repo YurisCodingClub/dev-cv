@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.buttonDownload {
+  display: "flex";
+  flex-direction: row;
+  align-items: "center";
+  justify-content: space-evenly;
+  margin-right: 5px;
+}
+
+.imageDownload {
+  margin-right: 5px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
