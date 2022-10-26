@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Education = () => {
   return (
@@ -25,16 +25,21 @@ const Education = () => {
         <div>
           <label for='edu-country'>Country</label>
           <input
-  type = 'text'
-  name = 'edu-country'
-  id = 'edu-country'
-  autoComplete = 'country-name'
+            type='text'
+            name='edu-country'
+            id='edu-country'
+            autoComplete='country-name'
             required
           />
         </div>
         <div>
           <label for='edu-start-date'>Start Date</label>
-          <input type='date' name='edu-start-date' id='edu-start-date' required />
+          <input
+            type='date'
+            name='edu-start-date'
+            id='edu-start-date'
+            required
+          />
         </div>
         <div>
           <label for='edu-end-date'>End Date</label>
@@ -42,13 +47,17 @@ const Education = () => {
         </div>
         <div>
           <label for='edu-description'>Description</label>
-          <textarea name='edu-description' id='edu-description' required></textarea>
+          <textarea
+            name='edu-description'
+            id='edu-description'
+            required
+          ></textarea>
         </div>
         <button>Save</button>
         <button>Cancel</button>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default Education;
+export default Education
