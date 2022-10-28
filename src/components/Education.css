@@ -1,0 +1,37 @@
+.education {
+  margin-top: 3rem;
+}
+
+.education form {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 992px) {
+  .education form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .education form {
+    width: 100%;
+  }
+}
+
+.education form > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+}
+
+.education form > div label {
+  padding-right: 1rem;
+}
+
+.education form > button {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}

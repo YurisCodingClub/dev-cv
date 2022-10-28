@@ -1,9 +1,9 @@
 import React from "react";
 import "../Header.css";
-
+import "../index.css";
 const Header = () => {
   return (
-    <div>
+    <div className="navbar container">
       <nav>
         <div className="logo">
           <img

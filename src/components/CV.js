@@ -1,18 +1,9 @@
 import React from "react";
+import "../index.css";
+import "./CV.css";
 
 const CV = () => {
-  return (
-    <div
-      style={{
-        width: "calc(2480px/4)",
-        height: "calc(3508px/4)",
-        border: "2px solid black",
-        margin: "50px",
-        padding: "20px",
-      }}
-    >
-    </div>
-  );
+  return <div className="cv container"></div>;
 };
 
 export default CV;

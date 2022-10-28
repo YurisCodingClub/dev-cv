@@ -1,4 +1,6 @@
 import { useState } from "react";
+import "./ProgrammingExpertise.css";
+import "../index.css";
 
 const initialState = {
   Title: "",
@@ -48,7 +50,7 @@ const ProgrammingExpertise = () => {
     );
   });
   return (
-    <>
+    <div className="expertise container">
       <h1>Programming Expertise</h1>
       <form onSubmit={onSubmit}>
         {inputList}
@@ -57,7 +59,7 @@ const ProgrammingExpertise = () => {
           Cancel
         </button>
       </form>
-    </>
+    </div>
   );
 };
 export default ProgrammingExpertise;

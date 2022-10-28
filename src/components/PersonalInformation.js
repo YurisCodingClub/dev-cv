@@ -1,8 +1,10 @@
 import React from "react";
+import "../index.css";
+import "./PersonalInformation.css";
 
 function PersonalInformation() {
   return (
-    <div>
+    <div className="personal container">
       <h1> Personal Information</h1>
 
       <form>
@@ -39,64 +41,54 @@ function PersonalInformation() {
             />
           </li>
           <li>
-            <label for="form-tel">
-              Phone number:{" "}
-              <input
-                type="tel"
-                name="telephone"
-                id="form-tel"
-                placeholder="Enter Phone Number"
-                aria-label="Provide Your Phone number "
-              />
-            </label>
+            <label for="form-tel">Phone number: </label>
+            <input
+              type="tel"
+              name="telephone"
+              id="form-tel"
+              placeholder="Enter Phone Number"
+              aria-label="Provide Your Phone number "
+            />
           </li>
           <li>
-            <label for="form-address">
-              Address (simplified):
-              <input
-                type="text"
-                name="address"
-                id="form-address"
-                placeholder="Enter Address"
-                aria-label="Provide Your Address "
-              />
-            </label>
+            <label for="form-address">Address (simplified):</label>
+            <input
+              type="text"
+              name="address"
+              id="form-address"
+              placeholder="Enter Address"
+              aria-label="Provide Your Address "
+            />
           </li>
           <li>
-            <label for="form-github">
-              Link to GitHub (recommended):
-              <input
-                type="text"
-                name="github"
-                id="form-github"
-                placeholder="https://mygithub.com"
-                aria-label="Provide a Github Link "
-              />
-            </label>
+            <label for="form-github">Link to GitHub (rec):</label>
+            <input
+              type="text"
+              name="github"
+              id="form-github"
+              placeholder="https://mygithub.com"
+              aria-label="Provide a Github Link "
+            />
           </li>
           <li>
-            <label for="form-portfolio">
-              Link to Portfolio (optional):
-              <input
-                type="text"
-                name="portfolio"
-                id="form-portfolio"
-                placeholder="https://myportfolio.com"
-                aria-label="Provide a Portfolio Link"
-              />
-            </label>
+            <label for="form-portfolio">Link to Portfolio (opt):</label>
+            <input
+              type="text"
+              name="portfolio"
+              id="form-portfolio"
+              placeholder="https://myportfolio.com"
+              aria-label="Provide a Portfolio Link"
+            />
           </li>
           <li>
-            <label for="form-linkedin">
-              Link to Linkedin (optional):
-              <input
-                type="text"
-                name="linkedin"
-                id="form-linkedin"
-                placeholder="https://myLinkedIn.com"
-                aria-label="Provide Your LinkedIn Link"
-              />
-            </label>
+            <label for="form-linkedin">Link to Linkedin (opt):</label>
+            <input
+              type="text"
+              name="linkedin"
+              id="form-linkedin"
+              placeholder="https://myLinkedIn.com"
+              aria-label="Provide Your LinkedIn Link"
+            />
           </li>
         </ul>
 

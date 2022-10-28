@@ -1,8 +1,10 @@
-import React from 'react'
+import React from "react";
+import "../index.css";
+import "./Skills.css";
 
 function Skills() {
   return (
-    <div>
+    <div className="skills container">
       <h1> Skills</h1>
 
       <form>
@@ -15,7 +17,7 @@ function Skills() {
               id="form-technical"
               placeholder="Enter Your Technical Skills"
               aria-label="Provide Your Technical Skills"
-              />
+            />
           </li>
           <li>
             <label for="form-business">Buisness Skills:</label>
@@ -28,7 +30,7 @@ function Skills() {
             />
           </li>
           <li>
-            <label for="form-programming">Programming Languages:</label>
+            <label for="form-programming">Programming Lang:</label>
             <input
               type="text"
               name="programming"
@@ -38,37 +40,32 @@ function Skills() {
             />
           </li>
           <li>
-            <label for="form-tools">
-              Tools:
-              <input
-                type="text"
-                name="tools"
-                id="form-tools"
-                placeholder="Enter Your Tools"
-                aria-label="Provide Your Tools "
-              />
-            </label>
+            <label for="form-tools">Tools:</label>
+            <input
+              type="text"
+              name="tools"
+              id="form-tools"
+              placeholder="Enter Your Tools"
+              aria-label="Provide Your Tools "
+            />
           </li>
           <li>
-            <label for="form-language">
-              Languages:
-              <input
-                type="text"
-                name="language"
-                id="form-language"
-                placeholder="English "
-                aria-label="Provide Your Languages "
-              />
-            </label>
+            <label for="form-language">Languages:</label>
+            <input
+              type="text"
+              name="language"
+              id="form-language"
+              placeholder="English "
+              aria-label="Provide Your Languages "
+            />
           </li>
-         
         </ul>
 
         <button> Save </button>
         <button> Cancel </button>
       </form>
     </div>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

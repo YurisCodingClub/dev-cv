@@ -1,20 +1,10 @@
 import React from "react";
+import "./DownloadButton.css";
 
 const DownloadButton = () => {
   return (
-    <button
-      style={{
-        display: "flex",
-        alignItems: "center",
-      }}
-    >
-      <img
-        src="/images/download.svg"
-        alt=""
-        style={{
-          padding: "5px",
-        }}
-      ></img>
+    <button className="download">
+      <img src="/images/download.svg" alt="" />
       Download
     </button>
   );

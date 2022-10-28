@@ -1,0 +1,42 @@
+.skills {
+  margin-top: 3rem;
+}
+
+.skills form {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 992px) {
+  .skills form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills form {
+    width: 100%;
+  }
+}
+
+.skills form > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.skills form > ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+}
+
+.skills form > ul label {
+  padding-right: 1rem;
+}
+
+.skills form > button {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}

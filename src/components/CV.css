@@ -1,0 +1,24 @@
+.cv {
+  width: 50rem;
+  height: 35rem;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .cv {
+    width: 40rem;
+    height: 35rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cv {
+    width: 18rem;
+    height: 18rem;
+    border: 2px solid black;
+    padding: 10px;
+  }
+}
