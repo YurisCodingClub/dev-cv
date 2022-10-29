@@ -7,6 +7,7 @@ import PersonalInformation from './components/PersonalInformation'
 import CV from './components/CV'
 import Skills from './components/Skills'
 import SkipLink from './components/SkipLink'
+import Certificates from './components/Certificates'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Education />
         <PersonalInformation />
         <Skills />
+        <Certificates />
         <CV />
       </main>
     </>
