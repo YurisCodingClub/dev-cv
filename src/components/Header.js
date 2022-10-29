@@ -1,4 +1,5 @@
 import React from "react";
+import DownloadButton from "./DownloadButton";
 
 
 const Header = () => {
@@ -10,14 +11,7 @@ const Header = () => {
             alt=""
           />
           <span>Name</span>
-          <button className="imageDownload">
-            <img
-              className="imageDownload"
-              src="/images/download.svg"
-              alt=""
-              ></img>
-            Download
-          </button>
+          <DownloadButton />
       </header>
   );
 };
