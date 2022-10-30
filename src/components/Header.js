@@ -8,7 +8,7 @@ const Header = () => {
           <img
             className="imagelogo"
             src="https://logo.clearbit.com/spotify.com"
-            alt=""
+            alt="" 
           />
           <span>Name</span>
           <DownloadButton />

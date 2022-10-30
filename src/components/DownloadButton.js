@@ -6,7 +6,6 @@ const DownloadButton = () => {
       style={{
         display: "flex",
         alignItems: "center",
-        marginRight: "5px",
       }}
     >
       <img
