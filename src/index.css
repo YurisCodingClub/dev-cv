@@ -14,3 +14,42 @@ code {
 h1{
   margin-top:50px;
 }
+
+nav {
+  top: 0;
+  height: 46px;
+  position: fixed;
+  display: flex;
+  flex-flow: row;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.logo {
+  flex: 1;
+  margin: auto;
+  padding: 2px;
+}
+.imagelogo {
+  border-radius: 100%;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: px;
+}
+.button-download{
+  border-radius: 5px;
+  background-color: rgb(3, 202, 3);
+  color: black;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.button-download:hover{
+  color: rgb(41, 36, 36);
+  background-color: rgb(42, 214, 42);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

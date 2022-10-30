@@ -1,22 +1,34 @@
 import React from "react";
-import "../Header.css";
+import "../index";
 
 const Header = () => {
   return (
-    <div>
-      <nav>
-        <div className="logo">
+    <header>
+      <nav className="logo">
           <img
             className="imagelogo"
             src="https://logo.clearbit.com/spotify.com"
-            alt="logo"
+            alt=""
           />
-        </div>
-        <div className="name">
-          <h2>Name</h2>
-        </div>
+          <span >Name</span>
+          <button
+      style={{
+        display: "flex",
+        alignItems: "center",
+
+      } } className="button-download"
+    >
+      <img
+        src="/images/download.svg"
+        alt=""
+        style={{
+          padding: "5px",
+        }}
+      ></img>
+      Download
+    </button>
       </nav>
-    </div>
+    </header>
   );
 };
 
