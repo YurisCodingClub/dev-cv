@@ -12,7 +12,7 @@ const DownloadButton = () => {
         src="/images/download.svg"
         alt=""
         style={{
-          padding: "5px",
+        padding: "5px", 
         }}
       ></img>
       Download

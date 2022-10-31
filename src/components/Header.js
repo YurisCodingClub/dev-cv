@@ -1,23 +1,20 @@
 import React from "react";
-import "../Header.css";
+import DownloadButton from "./DownloadButton";
+
 
 const Header = () => {
   return (
-    <div>
-      <nav>
-        <div className="logo">
+      <header> 
           <img
             className="imagelogo"
             src="https://logo.clearbit.com/spotify.com"
-            alt="logo"
+            alt="" 
           />
-        </div>
-        <div className="name">
-          <h2>Name</h2>
-        </div>
-      </nav>
-    </div>
+          <span>Name</span>
+          <DownloadButton />
+      </header>
   );
 };
 
 export default Header;
+
