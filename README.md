@@ -1,7 +1,16 @@
 ![Open Source Love](https://img.shields.io/badge/open%20soure-%F0%9F%92%9F-blueviolet?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-#
+# Top contributors
+
+[//]: contributor-faces
+
+<a href="https://github.com//hariscs"><img src="https://avatars.githubusercontent.com/u/60646718?v=4" title="Haris Shah" width="80" height="80"></a>
+<a href="https://github.com/utkarsh1311"><img src="https://avatars.githubusercontent.com/u/70108561?v=4" title="Utkarsh Maurya" width="80" height="80"></a>
+<a href="https://github.com/LittleMissButtons"><img src="https://avatars.githubusercontent.com/u/59650617?v=4" title="Alexis Pendleton" width="80" height="80"></a>
+<a href="https://github.com/sowmiyeh"><img src="https://avatars.githubusercontent.com/u/74345706?v=4" title="Sowmiya V" width="80" height="80"></a>
+
+[//]: contributor-faces
 
 # About DevCV
 
